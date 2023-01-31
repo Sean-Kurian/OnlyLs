@@ -5,8 +5,8 @@ To use, download and run the executable file from release v1.0.0 (please make su
 
 Sample images: 
 
-![image](https://user-images.githubusercontent.com/44990661/215858161-5160fd9c-7b6d-4e03-842a-e0b299512468.png)
+![image](https://user-images.githubusercontent.com/44990661/215898687-52a73269-98a3-42e2-b967-5ab269534e93.png)
 
 Current release (issue with image bundling in executable): 
 
-![image](https://user-images.githubusercontent.com/44990661/215861319-dc7fd972-7dab-439a-9624-cef975c8c1c9.png)
+![image](https://user-images.githubusercontent.com/44990661/215898486-a2d16904-8772-4d4c-a980-6dd65f6d0919.png)
