@@ -9,4 +9,4 @@ Sample images:
 
 Current release (issue with image bundling in executable): 
 
-![image](https://user-images.githubusercontent.com/44990661/215898486-a2d16904-8772-4d4c-a980-6dd65f6d0919.png)
+![image](https://user-images.githubusercontent.com/44990661/215898985-7498d22b-6973-4df6-ab0d-537627f62b99.png)
