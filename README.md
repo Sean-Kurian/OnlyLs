@@ -1,7 +1,13 @@
 # OnlyLs
 Lobby checker for League of Legends, useful for de-anonymizing names in champion select. 
 
-To use, download and run the executable file from release v1.0.1 (please make sure the League client is running) - nothing else required. 
+Run this command in order to install all the necessary dependencies to successfully run the tool:
+>pip3 install -r requirements.txt
+
+Then just run:
+>python3 main.py
+
+Alternatively, download and run the executable file from release v1.0.1 (please make sure the League client is running). 
 
 Sample images: 
 
