@@ -1,0 +1,4 @@
+flet==0.10.1
+psutil==5.9.5
+requests==2.31.0
+
