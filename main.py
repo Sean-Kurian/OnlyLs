@@ -9,8 +9,6 @@ def main(page: flet.Page):
     page.window_minimizable = True
     page.window_maximizable = False
 
-    # TODO: Error checking if league client isn't open
-
     # Main Window Elements
     window = Window()
     page.add(window)
