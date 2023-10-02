@@ -7,7 +7,12 @@ from urllib.parse import urlencode
 
 class APIGetter: 
     def __init__(self): 
+        #declare and initialize the necessary fields
         self._league_client = 'LeagueClientUx.exe'
+        self._shell=None
+        self._lockfile=None
+        self._lcu_auth_token=None
+
         for proc in psutil.process_iter(): 
             if proc.name() == self._league_client: 
                 str = proc.exe()
@@ -20,6 +25,10 @@ class APIGetter:
                 with open(self._lockfile, 'r') as f:
                     file_data = f.read().split(':')
                     self._lcu_auth_token = base64.b64encode(('riot:' + file_data[3]).encode('ascii')).decode('ascii')
+        
+        #check if LoL is running: if not, quit the program
+        if self._shell==None:
+            exit("League of Legends should be running in order to use this tool.\nQUITTING!\n")
 
         for line in self._shell:
             if '--region=' in line:
